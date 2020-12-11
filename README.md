@@ -54,3 +54,36 @@
     ]
 }
 ```
+
+<hr>
+
+#### Installation
+
+##### **Clone Repo**
+`git clone https://github.com/albertorsesc/be-prog-my-api.git`
+
+##### **Install Dependencies**
+```
+cd be-prog-my-api/
+composer install
+```
+
+##### **Setup Environment**
+```
+cp .env.example .env
+php artisan key:generate
+```
+
+##### **Setup DB credentials**
+```
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+##### **Start Application**
+`php artisan serve`
+
+##### **Visit** `http://localhost:8000`

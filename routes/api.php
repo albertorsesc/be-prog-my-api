@@ -8,3 +8,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('bands', [\App\Http\Controllers\Api\BandController::class, 'index'])->name('api.bands.index');
+Route::get('countries', \App\Http\Controllers\Api\CountryController::class)->name('api.countries.index');

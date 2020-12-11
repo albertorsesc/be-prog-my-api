@@ -32,4 +32,11 @@ abstract class TestCase extends BaseTestCase
     {
         return $class::factory()->make($attributes);
     }
+
+    public function loadSeeders(array $seeders)
+    {
+        foreach ($seeders as $seeder) {
+            $this->artisan('db:seed --class=' . class_basename($seeder));
+        }
+    }
 }

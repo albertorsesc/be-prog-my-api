@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Band;
+use App\Models\Country;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BandFactory extends Factory
@@ -22,7 +23,8 @@ class BandFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->word
+            'name' => $this->faker->word,
+            'country_id' => Country::query()->inRandomOrder()->first()->id,
         ];
     }
 }

@@ -5,14 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Band extends Model
+class Country extends Model
 {
     use HasFactory;
 
-    /* Relations */
-
-    public function country()
-    {
-        return $this->belongsTo(Country::class);
-    }
+    public $timestamps = false;
 }

@@ -11,6 +11,10 @@ class BandController extends Controller
 {
     public function index()
     {
-        return BandResource::collection(Band::all());
+        return BandResource::collection(
+            Band::query()
+                ->with('country')
+                ->get()
+        );
     }
 }

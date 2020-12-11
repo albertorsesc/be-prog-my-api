@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Feature\Api;
+namespace Feature\Api;
 
-use Database\Seeders\CountrySeeder;
 use Tests\TestCase;
 use App\Models\Band;
+use Database\Seeders\CountrySeeder;
 
 class BandsTest extends TestCase
 {

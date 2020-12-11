@@ -1,10 +1,9 @@
 <?php
 
-namespace Tests\Feature\Api;
+namespace Feature\Api;
 
-use Database\Seeders\CountrySeeder;
 use Tests\TestCase;
-use App\Models\Country;
+use Database\Seeders\CountrySeeder;
 
 class CountriesTest extends TestCase
 {

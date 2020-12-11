@@ -7,6 +7,7 @@
 #### Roadmap
 
 * [x] Get all Bands
+* [x] Get all Genres
 
 <hr>
 
@@ -15,6 +16,7 @@
 | Resource       | HTTP     | Endpoint     | Description |
 | :------------- | :----------:  | -----------: | -----------: |
 |  Bands         | GET           | /api/bands    | Get all Bands |
+|  Genres         | GET           | /api/genres    | Get all Genres |
 
 #### JSON Schema
 
@@ -30,6 +32,18 @@
                 "name": "United States of America",
                 "code": "USA"
             }
+        }
+    ]
+}
+```
+
+**GET** - `/api/genres`
+```json
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Progressive Rock"
         }
     ]
 }

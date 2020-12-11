@@ -31,7 +31,13 @@
                 "id": 1,
                 "name": "United States of America",
                 "code": "USA"
-            }
+            },
+            "genres": [
+                {
+                    "id": 1,
+                    "name": "Progressive Metal"
+                }
+            ]
         }
     ]
 }

@@ -13,7 +13,7 @@ class BandController extends Controller
     {
         return BandResource::collection(
             Band::query()
-                ->with('country')
+                ->with(['country', 'genres'])
                 ->get()
         );
     }

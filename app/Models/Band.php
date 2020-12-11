@@ -15,4 +15,9 @@ class Band extends Model
     {
         return $this->belongsTo(Country::class);
     }
+    
+    public function genres() 
+    {
+        return $this->belongsToMany(Genre::class);
+    }
 }

@@ -17,7 +17,8 @@ class BandResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'country' => $this->whenLoaded('country')
+            'country' => $this->whenLoaded('country'),
+            'genres' => $this->whenLoaded('genres')
         ];
     }
 }

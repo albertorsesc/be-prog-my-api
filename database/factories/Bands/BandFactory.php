@@ -1,10 +1,9 @@
 <?php
 
-namespace Database\Factories;
+namespace Database\Factories\Bands;
 
-use App\Models\Band;
 use App\Models\Country;
-use App\Models\Genre;
+use App\Models\Bands\Band;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BandFactory extends Factory

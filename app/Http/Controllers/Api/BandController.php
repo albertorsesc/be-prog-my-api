@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Models\Band;
+use App\Models\Bands\Band;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Resources\BandResource;
+use App\Http\Resources\Bands\BandResource;
 
 class BandController extends Controller
 {

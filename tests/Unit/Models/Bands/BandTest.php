@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Unit\Models;
+namespace Tests\Unit\Models\Bands;
 
-use App\Models\Band;
-use App\Models\Country;
-use App\Models\Genre;
-use Database\Seeders\CountrySeeder;
 use Tests\TestCase;
+use App\Models\Genre;
+use App\Models\Country;
+use App\Models\Bands\Band;
+use Database\Seeders\CountrySeeder;
 
 class BandTest extends TestCase
 {

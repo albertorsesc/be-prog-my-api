@@ -7,6 +7,8 @@
 #### Roadmap
 
 * [x] Get all Bands
+* [x] Get all Albums
+* [x] Get all Songs from an Album
 * [x] Get all Genres
 
 <hr>
@@ -16,6 +18,8 @@
 | Resource       | HTTP     | Endpoint     | Description |
 | :------------- | :----------:  | -----------: | -----------: |
 |  Bands         | GET           | /api/bands    | Get all Bands |
+|  Albums         | GET           | /api/albums    | Get all Albums |
+|  Songs         | GET           | /api/albums/{album}/songs    | Get all Songs from an Album |
 |  Genres         | GET           | /api/genres    | Get all Genres |
 
 #### JSON Schema
@@ -26,15 +30,19 @@
     "data": [
         {
             "id": 1,
-            "name": "Tool",
+            "name": "Caligula's Horse",
             "country": {
                 "id": 1,
-                "name": "United States of America",
-                "code": "USA"
+                "name": "Australia",
+                "code": "AU"
             },
             "genres": [
                 {
                     "id": 1,
+                    "name": "Progressive Rock"
+                },
+                {
+                    "id": 2,
                     "name": "Progressive Metal"
                 }
             ]
@@ -42,19 +50,6 @@
     ]
 }
 ```
-
-**GET** - `/api/genres`
-```json
-{
-    "data": [
-        {
-            "id": 1,
-            "name": "Progressive Rock"
-        }
-    ]
-}
-```
-
 <hr>
 
 #### Installation

@@ -64,6 +64,7 @@
 ```
 cd be-prog-my-api/
 composer install
+npm install
 ```
 
 ##### **Setup Environment**
@@ -82,6 +83,7 @@ DB_PASSWORD=
 ```
 
 ##### **Start Application**
-`php artisan serve`
+- `npm run watch`
+- `php artisan serve`
 
-##### **Visit** `http://localhost:8000`
+##### **Visit** `http://localhost:3000`

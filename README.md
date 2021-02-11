@@ -1,3 +1,5 @@
+<a href="https://ibb.co/LpxZfvk"><img src="https://i.ibb.co/XJ7CTV2/beprogmyapi.png" width="800" alt="BeProgMyApi, Progressive Metal Bands" border="0"></a>
+
 ### Be Prog My Api
 
 #### API for obtaining Progressive Metal/Rock bands, albums, songs and other information.
@@ -10,6 +12,7 @@
 * [x] Get all Albums
 * [x] Get all Songs from an Album
 * [x] Get all Genres
+* [x] Register/Login
 
 <hr>
 

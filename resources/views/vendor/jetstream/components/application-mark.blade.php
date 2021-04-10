@@ -1,1 +1,1 @@
-<span class="text-base text-gray-700 font-semibold">BeProgMyApi</span>
+<span class="text-lg text-gray-700 font-bold">BeProgMyApi</span>
